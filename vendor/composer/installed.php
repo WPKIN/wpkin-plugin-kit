@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'wpkin/store-commander',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'wpkin/wpkin-plugin-kit',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '2bb2d978249e46409619df623b61feacdb82d1ad',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -115,10 +115,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'wpkin/store-commander' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'wpkin/wpkin-plugin-kit' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '2bb2d978249e46409619df623b61feacdb82d1ad',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

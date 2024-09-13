@@ -164,7 +164,7 @@ if ( ! class_exists( 'WPKIN_Plugin_Kit' ) ) {
 
 				delete_option( 'wpkin_pk_activation_redirect' );
 
-				wp_safe_redirect( admin_url( 'admin.php?page=store-commander' ) );
+				wp_safe_redirect( admin_url( 'admin.php?page=wpkin-plugin-settings' ) );
 				exit();
 			}
 		}
@@ -184,8 +184,8 @@ if ( ! class_exists( 'WPKIN_Plugin_Kit' ) ) {
 				[
 					sprintf(
 						'<a href="%s">%s</a>',
-						admin_url( 'admin.php?page=store-commander' ),
-						esc_html__( 'Settings', 'store-commander' )
+						admin_url( 'admin.php?page=wpkin-plugin-settings' ),
+						esc_html__( 'Settings', ' wpkin-plugin-kit' )
 					),
 				],
 				$links
