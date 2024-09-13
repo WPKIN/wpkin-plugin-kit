@@ -1,0 +1,26 @@
+{
+    "name": "wpkin/store-commander",
+    "description": "This is woocommerce order manager plugin. You can manager all order.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "richardmallick",
+            "email": "richardsetu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"mpdf/mpdf": "^8.2",
+        "endroid/qr-code": "^5.0@dev"
+	},
+    "autoload": {
+        "psr-4": {
+            "WPK_PLUGIN_KIT\\" : ""
+        },
+        "files": [ "Includes/functions.php" ]
+    },
+    "config": {
+        "allow-plugins": false
+    }
+}
