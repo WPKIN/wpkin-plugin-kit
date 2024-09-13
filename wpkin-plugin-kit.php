@@ -70,7 +70,7 @@ if ( ! class_exists( 'WPKIN_Plugin_Kit' ) ) {
 		/**
 		 * Initilize a singleton instance
 		 *
-		 * @return /Order_Layouts
+		 * @return /WPKIN_Plugin_Kit
 		 */
 		public static function init() {
 

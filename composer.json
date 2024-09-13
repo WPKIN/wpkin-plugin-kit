@@ -1,6 +1,6 @@
 {
-    "name": "wpkin/store-commander",
-    "description": "This is woocommerce order manager plugin. You can manager all order.",
+    "name": "wpkin/wpkin-plugin-kit",
+    "description": "This WPKIN plugin Kit.",
     "type": "wordpress-plugin",
     "license": "GPLv2",
     "authors": [
