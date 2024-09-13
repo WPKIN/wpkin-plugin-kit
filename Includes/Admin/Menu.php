@@ -25,7 +25,7 @@ class Menu {
 	 */
 	public function regiter_admin_menu() {
 		$user = 'manage_options';
-		add_menu_page( __( 'WPKIN Plugin Kit', 'wpkin-plugin-kit' ), __( 'WPKIN Plugin Kit', 'wpkin-plugin-kit' ), $user, 'wpkin-plugin-settings', [ $this, 'plugin_page' ], 'dashicons-businessman', 57 );
+		add_menu_page( __( 'WPKIN Plugin Kit', 'wpkin-plugin-kit' ), __( 'WPKIN Plugin Kit', 'wpkin-plugin-kit' ), $user, 'wpkin-plugin-settings', [ $this, 'plugin_page' ], 'dashicons-businessman', 58 );
 	}
 
 	/**
@@ -34,7 +34,7 @@ class Menu {
 	 * @return void
 	 */
 	public function plugin_page() {
-		echo '<div id="wpkin-plugin-kit-admin"></div>';
+		echo '<div id="wpkin-plugin-kit-admin">Hello</div>';
 	}
 
 }

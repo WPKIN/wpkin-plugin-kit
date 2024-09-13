@@ -185,7 +185,7 @@ if ( ! class_exists( 'WPKIN_Plugin_Kit' ) ) {
 					sprintf(
 						'<a href="%s">%s</a>',
 						admin_url( 'admin.php?page=wpkin-plugin-settings' ),
-						esc_html__( 'Settings', ' wpkin-plugin-kit' )
+						esc_html__( 'Settings', 'wpkin-plugin-kit' )
 					),
 				],
 				$links
